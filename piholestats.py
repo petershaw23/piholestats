@@ -3,7 +3,8 @@ import json
 import requests
 import http.client, urllib.parse
 
-key = 'XXXXXXX' #Thingspeak API write key
+import key #make sure to create a new file called 'key.py' with the content: key='YOURTHINGSPEAKAPIWRITEKEY'
+key = key.key
 
 data1 = requests.get(url="http://localhost/admin/api.php")
 jsonobj1 = json.loads(data1.content.decode('utf-8'))
