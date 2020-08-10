@@ -13,7 +13,7 @@ unique_domains = jsonobj1["unique_domains"]
 ads_blocked_today = jsonobj1["ads_blocked_today"]
 ads_percentage_today = jsonobj1["ads_percentage_today"]
 
-print ('queries today:              '  +str(dns_queries_today))
+print ('queries today:        '  +str(dns_queries_today))
 print ('unique_domains:       '  +str(unique_domains))
 print ('ads_blocked_today:    '  +str(ads_blocked_today))
 print ('ads_percentage_today: '  +str(ads_percentage_today))
