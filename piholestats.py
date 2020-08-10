@@ -10,7 +10,7 @@ data1 = requests.get(url="http://localhost/admin/api.php")
 jsonobj1 = json.loads(data1.content.decode('utf-8'))
 queries = jsonobj1["dns_queries_all_types"]
 unique_domains = jsonobj1["unique_domains"]
-ads_blocked_today = jsonobj1["ads_blocked_todays"]
+ads_blocked_today = jsonobj1["ads_blocked_today"]
 print (queries)
 print (unique_domains)
 
