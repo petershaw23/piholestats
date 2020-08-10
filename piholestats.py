@@ -13,10 +13,10 @@ unique_domains = jsonobj1["unique_domains"]
 ads_blocked_today = jsonobj1["ads_blocked_today"]
 ads_percentage_today = jsonobj1["ads_percentage_today"]
 
-print ('queries:'  +str(queries))
-print ('unique_domains:'  +str(unique_domains))
-print ('ads_blocked_today:'  +str(ads_blocked_today))
-print ('ads_percentage_today:'  +str(ads_percentage_today))
+print ('queries:              '  +str(queries))
+print ('unique_domains:       '  +str(unique_domains))
+print ('ads_blocked_today:    '  +str(ads_blocked_today))
+print ('ads_percentage_today: '  +str(ads_percentage_today))
 
 
 params = urllib.parse.urlencode({'field1': queries, 'field2': unique_domains, 'field3': ads_blocked_today, 'field4': ads_percentage_today, 'key':key })
